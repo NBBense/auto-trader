@@ -60,8 +60,8 @@ class FidelityNewsScraper:
         except Exception as e:
             print(f"Error occurred: {e}")
 
-# Optional: Send a notification (email, SMS, etc.)
-#def notify_user(new_article):
+    # Optional: Send a notification (email, SMS, etc.)
+    #def notify_user(new_article):
     # Example: Print for simplicity, but you could use email, SMS (Twilio), etc.
     # print(f"Notification: {new_article}")
     # You can integrate SMTP for email or Twilio for SMS notifications
@@ -72,7 +72,3 @@ class FidelityNewsScraper:
             print("Checking for news updates...")
             check_news()
             time.sleep(600)  # Wait 10 minutes before checking again (adjust as needed)
-
-if __name__ == "__main__":
-    run_monitor()
-

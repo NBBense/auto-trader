@@ -1,4 +1,4 @@
-import ParseArticle
-import Trade
+import parse_articles
+import trade
 
 pass
